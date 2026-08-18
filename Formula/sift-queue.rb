@@ -1,17 +1,17 @@
 class SiftQueue < Formula
   desc "Queue CLI and queue-native task/review substrate"
   homepage "https://github.com/DerekStride/sq"
-  version "0.8.0"
+  version "0.9.0"
   license "MIT"
 
   on_arm do
     url "https://github.com/DerekStride/sq/releases/download/v#{version}/sift-queue-v#{version}-aarch64-apple-darwin.tar.gz"
-    sha256 "f6b50b99c77f0d43061793e076541fa10425bbe737247b0e69a40d213d8c4ba7"
+    sha256 "d8fc07f9fa9d74f872f43c09718aba57934cd652cc1d491231689fcc0549c530"
   end
 
   on_intel do
     url "https://github.com/DerekStride/sq/releases/download/v#{version}/sift-queue-v#{version}-x86_64-apple-darwin.tar.gz"
-    sha256 "951f7f7b60433af3aecb3339138b0a72fcb965dc7700fb9c783584d5e6ce1e33"
+    sha256 "03b566c4edb26667243ffdc889c1b5e4f9751351d1f7b0cbd4c65eadbb69d6ae"
   end
 
   def install
