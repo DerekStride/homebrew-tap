@@ -1,17 +1,17 @@
 class AgentIdCli < Formula
   desc "Portable identity registry for coding-agent sessions"
   homepage "https://github.com/DerekStride/agent-id-cli"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_arm do
     url "https://github.com/DerekStride/agent-id-cli/releases/download/v#{version}/agent-id-cli-v#{version}-aarch64-apple-darwin.tar.gz"
-    sha256 "3b0214aa63322a1cb626c233aa98557e7707bf03634a68f1a1b81ebf7e00d20a"
+    sha256 "62315ebc09d3ddd7acd41dc0d99e731ccfaf87ac0e9c0ee80cda39aa1dc577d5"
   end
 
   on_intel do
     url "https://github.com/DerekStride/agent-id-cli/releases/download/v#{version}/agent-id-cli-v#{version}-x86_64-apple-darwin.tar.gz"
-    sha256 "5804ad97795f079f91a4091c2a9615870b68548681c5a829bb7b2aae3f55a3b4"
+    sha256 "f2553a63a9fb584b2abe6c12a35994f6c7be6b109965de89c095fc3a49c70b49"
   end
 
   def install
