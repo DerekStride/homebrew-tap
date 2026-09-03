@@ -1,17 +1,17 @@
 class AgentMail < Formula
   desc "Local Maildir message bus for coding agents"
   homepage "https://github.com/DerekStride/agent-mail"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_arm do
     url "https://github.com/DerekStride/agent-mail/releases/download/v#{version}/agent-mail-v#{version}-aarch64-apple-darwin.tar.gz"
-    sha256 "549b58d8a6a9f0ce89c6c5c891702ebb82401d24b5a0ff19f33e1cf37db2da6a"
+    sha256 "906d740b456f3c7c7930a477d77fcb58769902c9470c25a7c647448484679b0a"
   end
 
   on_intel do
     url "https://github.com/DerekStride/agent-mail/releases/download/v#{version}/agent-mail-v#{version}-x86_64-apple-darwin.tar.gz"
-    sha256 "a7c395098e16437e875c5a36fd9a4da234b8f4f30bf5aaf8550d1372cd9559f1"
+    sha256 "2068476a5f7f66526724117833ba1d64fb81a02e385300b5b5ab86d9b09f2f66"
   end
 
   def install
